@@ -1,0 +1,42 @@
+{
+  "name": "number-is-integer",
+  "version": "0.0.0",
+  "description": "ES2015 Number.isInteger() ponyfill",
+  "license": "MIT",
+  "repository": "sindresorhus/number-is-integer",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "es2015",
+    "es6",
+    "ecmascript",
+    "harmony",
+    "ponyfill",
+    "polyfill",
+    "shim",
+    "number",
+    "is-integer",
+    "isinteger",
+    "integer",
+    "int",
+    "num"
+  ],
+  "dependencies": {
+    "is-finite": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
