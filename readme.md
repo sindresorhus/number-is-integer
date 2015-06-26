@@ -28,6 +28,7 @@ numberIsInteger(1.5);
 ## Related
 
 - [is-safe-integer](https://github.com/sindresorhus/is-safe-integer) - ES2015 `Number.isSafeInteger()` ponyfill
+- [number-is-float](https://github.com/sindresorhus/number-is-float) - Check if something is a float
 
 
 ## License
