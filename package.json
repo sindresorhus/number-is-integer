@@ -1,6 +1,6 @@
 {
   "name": "number-is-integer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ES2015 Number.isInteger() ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/number-is-integer",
