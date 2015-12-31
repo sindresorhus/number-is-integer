@@ -1,22 +1,21 @@
 'use strict';
-var test = require('ava');
+const test = require('ava');
 Number.isInteger = undefined;
-var isInteger = require('./');
+const fn = require('./');
 
-test(function (t) {
-	t.assert(isInteger(0));
-	t.assert(isInteger(-0));
-	t.assert(isInteger(1));
-	t.assert(isInteger(5034));
-	t.assert(isInteger(-5034));
-	t.assert(isInteger(9007199254740991));
-	t.assert(isInteger(-9007199254740991));
-	t.assert(isInteger(1.0));
-	t.assert(!isInteger(1.1));
-	t.assert(!isInteger(NaN));
-	t.assert(!isInteger(Infinity));
-	t.assert(!isInteger(-Infinity));
-	t.assert(!isInteger(null));
-	t.assert(!isInteger(undefined));
-	t.end();
+test(t => {
+	t.true(fn(0));
+	t.true(fn(-0));
+	t.true(fn(1));
+	t.true(fn(5034));
+	t.true(fn(-5034));
+	t.true(fn(9007199254740991));
+	t.true(fn(-9007199254740991));
+	t.true(fn(1.0));
+	t.false(fn(1.1));
+	t.false(fn(NaN));
+	t.false(fn(Infinity));
+	t.false(fn(-Infinity));
+	t.false(fn(null));
+	t.false(fn(undefined));
 });
