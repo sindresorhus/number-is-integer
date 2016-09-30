@@ -1,8 +1,6 @@
 # number-is-integer [![Build Status](https://travis-ci.org/sindresorhus/number-is-integer.svg?branch=master)](https://travis-ci.org/sindresorhus/number-is-integer)
 
-> ES2015 [`Number.isInteger()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger) ponyfill
-
-> Ponyfill: A polyfill that doesn't overwrite the native method
+> ES2015 [`Number.isInteger()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger) [ponyfill](https://ponyfill.com)
 
 
 ## Install
