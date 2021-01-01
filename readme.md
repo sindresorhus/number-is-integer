@@ -1,4 +1,4 @@
-# number-is-integer [![Build Status](https://travis-ci.com/sindresorhus/number-is-integer.svg?branch=master)](https://travis-ci.com/sindresorhus/number-is-integer)
+# number-is-integer
 
 > ES2015 [`Number.isInteger()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger) [ponyfill](https://ponyfill.com)
 
