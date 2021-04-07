@@ -1,3 +1,7 @@
+Deprecated as this is now natively available in all modern browsers and Node.js versions.
+
+---
+
 # number-is-integer
 
 > ES2015 [`Number.isInteger()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger) [ponyfill](https://ponyfill.com)
